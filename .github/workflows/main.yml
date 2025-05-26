@@ -46,7 +46,7 @@ jobs:
 
           VALIDATE_JSON: false
 
-          VALIDATE_ERRORS: true
+          DISABLE_ERRORS: true
 
           VALIDATE_JSCPD: false # for copy and paste detection
 
