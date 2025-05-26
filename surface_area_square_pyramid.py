@@ -7,7 +7,11 @@ are of a square pyramid and displays the calculated area in 2 decimal points
 """
 
 import math
+
+
 def surface_area(base_float, height_float):
+
+
     # Calculate the slant height
     slant_height = math.sqrt(math.pow(height_float, 2) + math.pow(base_float / 2, 2))
 
